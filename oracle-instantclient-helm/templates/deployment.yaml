@@ -32,7 +32,7 @@ spec:
           imagePullPolicy: {{ .Values.image.pullPolicy }}
           ports:
             - name: oracle
-              containerPort: 7777
+              containerPort: 7272
               protocol: TCP
           #livenessProbe:
           #  httpGet:
